@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menue {
+    height: 5vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menue p {
+    color: white;
+}
+
+.content {
+    width: 100%;
+    height: 55vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+.content .content-sektion {
+    height: 40vh;
+    width: 100%;
+    background-color: red;
+}
+
+
+.content .content-sektion p {
+    color: white;
+}
+
+
+.content .custom-shape-divider-top-1627292790 {
+
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.content .custom-shape-divider-top-1627292790 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 156px;
+}
+
+.content .custom-shape-divider-top-1627292790 .shape-fill {
+    fill: red;
+}
+
